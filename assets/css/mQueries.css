@@ -1,0 +1,71 @@
+/* XS
+  ------ */
+/* top */
+span.intro:before, span.intro:after {
+  width: 0;
+  margin: 0;
+}
+span.intro, span.title {
+  border: none;
+  font-size: 16px;
+}
+/* main */
+.project-box-border {
+  height: 150px;
+}
+.project-a {
+  height: 150px;
+  width: 150px;
+}
+/* end xs */
+
+
+/* SM
+  ------ */
+@media only screen and (min-width : 768px) {
+  /* top */
+  span.intro:before, span.intro:after {
+    margin: 3px 15px;
+    width: 27px;
+  }
+  span.intro, span.title {
+    font-size: 20px;
+  }
+  span.title {
+    border: 1px solid white;
+    border-right: none;
+    border-left: none;
+  }
+
+h1.indexName{
+    font-size: 35px;
+  }
+
+
+} /* end sm */
+
+
+/* MD
+  ------ */
+@media only screen and (min-width : 992px) {
+  /* main */
+  .project-box-border {
+    height: 200px;
+  }
+  .project-a {
+    height: 200px;
+    width: 200px;
+  }
+
+.indexName{
+    font-size: 35px;
+  }
+} /* end md */
+
+/* LG
+  ------ */
+@media only screen and (min-width : 1200px) {
+  h1 {
+
+  }
+} /* end MD */

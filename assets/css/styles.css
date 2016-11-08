@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  background-color: #f75a50;
+  background-size: cover;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/12.jpg);
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/12.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/12.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/12.jpg);
+}
+
+#mock-div {
+  background-color: black;
+  opacity: 1;
+  width: 100%;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*// HEADER //*/
+#header {
+  padding: 35px 20px;
+  min-height: 300px;
+  text-transform: uppercase;
+}
+.border {
+  border: 3px solid white;
+  padding: 35px;
+  min-height: 310px;
+  margin-bottom: 40px;
+  /* flex */
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-content,
+.main-content {
+  /* width: 100%; */
+}
+span.intro,
+span.title {
+  font-size: 20px;
+}
+span.intro:before,
+span.intro:after {
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  margin: 3px 15px;
+  width: 27px;
+  background-color: rgba(255, 255, 255, 255);
+}
+span.title {
+  border: 1px solid white;
+  padding: 5px;
+  border-right: none;
+  border-left: none;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+ul.icons-list {
+  margin-top: 20px;
+  margin-bottom:20px;
+  padding-left: 0;
+}
+li.icon {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+li.icon a {
+  color: white;
+}
+li.icon a:hover,
+li.icon a:focus {
+  text-decoration: none;
+  color: darkgray;
+}
+
+.fa {
+  /*color: green;
+  font-size: 400px;*/
+}
+
+/*// MAIN //*/
+#main {
+  padding: 35px 20px;
+  min-height: 300px;
+  text-transform: uppercase;
+}
+.main-content h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+.project-box {
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+.project-box-border {
+  /*border: 1px solid black;*/
+}
+.project-a {
+  border: 1px solid darkgray;
+  background: #fff no-repeat center center;
+  background-size: cover;
+  display: inline-block;
+}
+.project-a:hover {
+  transition: all 0.2s;
+}
+.project-2 {
+  background-image: url("http://cdn2.hubspot.net/hub/372554/img/modIndexBlock1.png");
+}
+.project-3 {
+  background-image: url("img/ginandtopics.png");
+}
+.project-1 {
+  background-image: url("img/ebay.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-a:hover .inner {
+  padding: 0 20px 0;
+  height: 100%;
+  transition: all 0.2s;
+  background-color: rgba(255,255,255,0.9);
+}
+.inner h3 {
+  display: none;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+.project-a:hover h3 {
+  display: inline-block;
+  padding-top: 50%;
+}
+
+
+/*// FOOTER //*/
+#footer {
+  display:none;
+}
+
+
+
+@media only screen and (min-width : 320px){
+
+
+.indexName{
+    font-size: 30px;
+    
+  }
+
+  }
